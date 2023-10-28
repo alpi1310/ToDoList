@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do List</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+
+
+    <h1 class="h1"></h1>
+
+
+
+  </header>
+  <!-- kjvnfn............................................................ -->
+  <div class="heading-in">
+    <h1>Enter Your Name</h1>
+    <P style="text-align: center; color: rgb(238, 238, 65);">YOU CAN TYPE ONLY ONE TIME </P>
+    <form>
+      <input type="text" class="heading-input">
+      <button class="heading-button" type="submit">Enter</button>
+    </form>
+    <div class="tep"></div>
+  </div>
+  <!-- lkjf................................................................. -->
+  <form id="for">
+    <input type="text" class="todo-input" />
+    <button class="todo-button" type="submit">
+      <i class="fas fa-plus-square"></i>
+    </button>
+    <div class="select">
+      <select name="todos" class="filter-todo">
+        <option value="all">All </option>
+        <option value="Completed">Completed </option>
+        <option value="Uncompleted">Uncompleted </option>
+      </select>
+    </div>
+
+  </form>
+  <div class="msg">
+
+  </div>
+
+  <div class="todo-container">
+    <ul class="todo-list"></ul>
+  </div>
+
+  <!-- Javascript -->
+  <script src="./app.js"></script>
+  <script src="./heading.js"></script>
+</body>
+
+</html>
